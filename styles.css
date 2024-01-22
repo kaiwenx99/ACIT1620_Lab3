@@ -28,11 +28,16 @@ form button {
   margin-left: auto;
 }
 
-/* HEADER FILES */
 header {
   background-color: teal;
   color: white;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  padding: 1 rem;
+  margin-bottom: 1 rem;
+}
+
+header {
+  background-color: teal;
+  color: white;
+  padding: 1 rem;
+  margin-bottom: 1 rem;
 }
