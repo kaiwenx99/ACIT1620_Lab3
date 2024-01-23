@@ -71,6 +71,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .homeMain {
   margin-right: 30px;
 }
@@ -85,6 +89,10 @@ a {
   width: 12rem;
   float: left;
   padding: 10px 15px;
+}
+
+.firstPara::first-letter {
+  font-size: 3rem;
 }
 
 /* index.html responsive */
