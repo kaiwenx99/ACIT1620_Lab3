@@ -31,13 +31,109 @@ form button {
 header {
   background-color: teal;
   color: white;
-  padding: 1 rem;
-  margin-bottom: 1 rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
-header {
+footer {
   background-color: teal;
   color: white;
-  padding: 1 rem;
-  margin-bottom: 1 rem;
+  text-align: center;
+  font-size: 20px;
+  padding: 1rem;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+}
+
+/* index.html */
+
+ul {
+  list-style: none;
+  width: 12rem;
+}
+
+li {
+  text-align: right;
+  padding: 12px 15px;
+  width: 8rem;
+  font-size: 20px;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+.homeMain {
+  margin-right: 30px;
+}
+
+.homeMainText {
+  margin: 12px;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+.img {
+  width: 12rem;
+  float: left;
+  padding: 10px 15px;
+}
+
+/* index.html responsive */
+
+@media screen and (max-width: 600px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-left: 20px;
+  }
+
+  li {
+    text-align: left;
+    width: auto;
+    border-left: 1px solid grey;
+  }
+}
+
+/* index.html responsive */
+
+/* index.html */
+
+/* about.html */
+#aboutContent {
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutHeader {
+  font-size: 40px;
+}
+
+#aboutText {
+  font-size: 24px;
+}
+
+/* about.html */
+
+/* contact.html */
+
+#contactMain {
+  width: 100%;
+  margin-right: 20px;
+}
+
+/* contact.html */
